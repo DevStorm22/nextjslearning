@@ -2,7 +2,7 @@ export default async function BlogId(
     {
         params,
     } : {
-        params: Promise<{blogId}>
+            params: Promise<{ blogId: string }>
     }
 )
 {
