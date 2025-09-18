@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+###### This is Scenario 4 where we have to learn routing by reating static routes.
 
-## Getting Started
+##### Structure are as follows
 
-First, run the development server:
+src/app
+-blog
+--[blogId]
+---product
+----[productId]
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Steps to perform
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Step 1: Delete app folder inside src folder
+Step 2: Create new folder named "app"
+Step 3: Create file under app folder named "page.tsx"
+Step 4: Write a basic code.
+Step 5: Save it and visit http//localhost:3000/ on the browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Step 6: Create new folder named "blog" in app folder
+Step 7: Create file under about folder named "page.tsx"
+Step 8: Write a basic code.
+Step 9: Save it and visit http//localhost:3000/blog on the browser
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Step 10: Create new folder named "[blogId]" in blog folder
+Step 11: Create file under profile folder named "page.tsx"
+Step 12: Write a basic code.
+Step 13: Save it and visit http//localhost:3000/blog/:id on the browser
 
-## Learn More
+Step 14: Create new folder named "product" in blog folder
+Step 15: Create file under profile folder named "page.tsx"
+Step 16: Write a basic code.
+Step 17: Save it and visit http//localhost:3000/blog/:id/product on the browser
 
-To learn more about Next.js, take a look at the following resources:
+Step 18: Create new folder named "[productId]" in blog folder
+Step 19: Create file under profile folder named "page.tsx"
+Step 20: Write a basic code.
+Step 21: Save it and visit http//localhost:3000/blog/:id/product/:id on the browser
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Scenario 4 is completed.

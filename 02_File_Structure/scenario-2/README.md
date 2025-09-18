@@ -1,10 +1,11 @@
-###### This is Scenario 1 where we have to learn routing by reating static routes.
+###### This is Scenario 2 where we have to learn routing by reating static routes.
 
 ##### Structure are as follows
 
 src/app
--about
--profile
+-blog
+--b1
+--b2
 
 ### Steps to perform
 
