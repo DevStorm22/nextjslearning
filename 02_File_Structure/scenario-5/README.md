@@ -6,8 +6,6 @@ src/app
 -blog
 --[...slug]
 
-### Steps to perform
-
 Step 1: Delete app folder inside src folder
 Step 2: Create new folder named "app"
 Step 3: Create file under app folder named "page.tsx"
